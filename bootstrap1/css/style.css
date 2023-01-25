@@ -1,0 +1,57 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #439A97;  /*menü arka plan*/  
+}
+
+li {
+    float: left; /* Menü yan yana */
+} 
+li a{
+    display: block;
+    padding: 12px 14px;
+    color: white;
+    text-decoration: none;    
+}
+li a:hover{
+    background-color: turquoise; /* renk değişir*/
+}
+.aktif{
+    background-color: #62B6B7; /*Kullanıcının hangi menüde olduğunu gösterir.*/
+}
+body{
+    background-color: #E9ECEF;
+}
+h2{
+    color: #439A97;
+    text-align: center;
+}
+h4{
+    color: #439A97;
+}
+.ss {
+    background-color: red;
+}
+
+  h3 {
+    background-color: red;
+    width: 200px;
+    padding: 10px;
+    border: 12px solid red;
+    padding: 13px;
+    color: white;
+}
+h3 {list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    }
+
+h5{
+    color: #439A97;
+}
+    p {
+        text-align: center;
+    }
